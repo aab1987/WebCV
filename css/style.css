@@ -10,7 +10,7 @@ main {
   overflow: hidden;
 }
 
-.cv {
+.content {
   min-height: 1px;
   width: 100%;
   position: relative;
@@ -22,10 +22,10 @@ main {
   box-sizing: border-box;
 }
 
-.block {
-  width: 70%;
-  padding-left: 3.5%;
-  padding-right: 3.5%;
+.left {
+  width: 717px;
+  float: left;
+  position: relative;
 }
 
 .logo {
@@ -60,20 +60,29 @@ main {
 }
 
 .name {
-width: 100%;
-position: relative;
-float: left;
-font-size: 36px;
-line-height: 36px;
-color: #475299;
-padding-left: 99px;
-margin-top: 25px;
+  width: 100%;
+  position: relative;
+  float: left;
+  font-size: 36px;
+  line-height: 36px;
+  color: #475299;
+  padding-left: 99px;
+  margin-top: 25px;
 }
 
-.photo {
-  min-height: 1px;
-width: 100%;
-position: relative;
-float: left;
+.frame {
+  margin-bottom: 10px;
+border-width: 1px;
+border-style: solid;
+border-color: #ccc;
+padding: 6px;
 }
+
+.right {
+  width: 243px;
+  float: left;
+  min-height: 100%;
+}
+
+
 
