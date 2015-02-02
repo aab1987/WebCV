@@ -28,11 +28,10 @@ body {
 }
 
 h1 {
-  font-weight: 400;
-  font-style: normal;
   font-size: 80px;
+  font-weight: 700;
   line-height: 100px;
-  font-family:'Oswald';
+  font-family: 'PT Sans', sans-serif;
   color: #F26328;
   text-transform: uppercase;
   text-align: center;
@@ -49,7 +48,7 @@ h1 {
   position: relative;
   list-style-type: none;
   padding: 30px 0 50px 0;
-  font-family: 'Oswald';
+  font-family: 'PT Sans', sans-serif;
   width: 1700px;
   margin: 0 auto;
 }
