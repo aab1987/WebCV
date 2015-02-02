@@ -28,15 +28,14 @@ body {
 }
 
 h1 {
-  display: block;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 10px;
-  font-size: 50px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 100px;
+  font-family:'Oswald';
   color: #F26328;
-  padding-bottom: 70px;
-  padding-left: 140px;
-  font-family: 'Gorditas'
+  text-transform: uppercase;
+  text-align: center;
 }
 
 .main {
@@ -50,7 +49,7 @@ h1 {
   position: relative;
   list-style-type: none;
   padding: 30px 0 50px 0;
-  font-family: 'Gorditas';
+  font-family: 'Oswald';
   width: 1700px;
   margin: 0 auto;
 }
@@ -73,9 +72,10 @@ h1 {
 
 .thumb {
   position: absolute;
-  width: 20px;
-  height: 20px;
-  background-color: black;
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-position: center;
   box-shadow:
   0 0 0 8px rgba(73, 201, 222, 1),
   0 1px 1px rgba(255,255,255,0.5);
@@ -85,6 +85,36 @@ h1 {
   -ms-transform: scale(0.8) translateX(24px);
   transform: scale(0.8) translateX(24px);
 }
+
+.info-1 {
+  background-image: url(../img/user.png);
+}
+
+.info-2 {
+  background-image: url(../img/website8.png);
+}
+
+.info-3 {
+  background-image: url(../img/briefcase56.png);
+}
+
+.info-4 {
+  background-image: url(../img/robot3.png);
+}
+
+.info-5 {
+  background-image: url(../img/custom.png);
+}
+
+.info-6 {
+  background-image: url(../img/translation.png);
+}
+
+.info-7 {
+  background-image: url(../img/movie46.png);
+}
+
+
 
 .event label,
 .event input[type="radio"] {
