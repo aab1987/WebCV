@@ -31,8 +31,9 @@ h1 {
   font-size: 80px;
   font-weight: 700;
   line-height: 100px;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Overlock', sans-serif;
   color: #F26328;
+  opacity: 0.5;
   text-transform: uppercase;
   text-align: center;
 }
@@ -146,10 +147,39 @@ h1 {
   text-align: center;
 }
 
+.rating {
+  min-height: 1px;
+  width: 100%;
+  position: relative;
+}
+
+.rate {
+  margin-left: 3px;
+  height: 13px;
+  width: 13px;
+  background: #000;
+  border: 3px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  float: left;
+  display: inline;
+}
+
+.rate2 {
+  margin-left: 3px;
+  height: 13px;
+  width: 13px;
+  background: white;
+  border: 3px solid #fff;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  float: left;
+  display: inline;
+}
+
 .content-perspective {
   margin-left: 230px;
   position: relative;
-
   -webkit-perspective: 600px;
   -moz-perspective: 600px;
   -o-perspective: 600px;
